@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import shutil
 #404, 838,353 fail.
-for x in range(839,1302):
+for x in range(1,1302):
 	url = 'http://www.xkcd.com/'+str(x)+'/'
 	f = urllib.urlopen(url)
 	txt = f.read();
